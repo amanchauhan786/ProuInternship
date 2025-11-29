@@ -1,123 +1,188 @@
-🚀 ProU Internship Challenge - Track 3 (Fullstack)
+# 🚀 ProU Internship Challenge – Track 3 (Fullstack)
 
-A comprehensive Employee & Task Management Dashboard built as part of the ProU Technology Internship Coding Challenge. This full-stack application demonstrates CRUD operations, relational data handling, and data visualization.
+A complete **Employee & Task Management Dashboard** built as part of the **ProU Technology Internship Coding Challenge**.
+This full-stack web application includes CRUD operations, relational task assignment, responsive UI, and a bonus data-visualization component.
 
-🌐 Live Demo
+---
 
-Frontend (UI)
+## 🌐 Live Demo
 
-Repository
+🔵 **Frontend (Vercel Deployment)**
+👉 Live App: *Add your Vercel link here*
+👉 Repository: [https://github.com/amanchauhan786/ProuInternship](https://github.com/amanchauhan786/ProuInternship)
 
-👉 Click to View Live App
+> ⚠️ *Note: The live frontend is for UI demonstration only. Backend + DB operations work locally.*
 
-View Source Code
+---
 
-Note: The live frontend is deployed on Vercel for UI/UX demonstration. For full database functionality, please run the project locally following the instructions below.
+## 📸 Preview
 
-📸 Dashboard Preview
+*Add your screenshot here*
 
-✨ Key Features
+```
+![Dashboard Preview](./preview.png)
+```
 
-👥 Team Management: Add, view, and remove team members dynamically.
+---
 
-📋 Task Management: Create tasks with titles, descriptions, and status.
+## ✨ Key Features
 
-🔗 Relational Logic: Assign tasks to specific employees using a dynamic dropdown (Foreign Key relationship).
+### 👥 Employee Management
 
-📊 Data Visualization (Bonus): Integrated "Workload Distribution" chart to visualize task allocation.
+* Add new employees
+* View employee list
+* Delete employees
+* Persistent SQLite storage
 
-🎨 Modern UI/UX: Fully responsive design built with Tailwind CSS and a professional dark-mode navbar.
+### 📋 Task Management
 
-⚡ Real-time Updates: Immediate UI updates upon data changes.
+* Create tasks with title & description
+* Assign tasks to employees (Foreign Key)
+* Update task status
+* Dynamic assignment dropdown
 
-🏆 Bonus Challenges Completed
+### 🔗 Relational Logic
 
-Challenge
+* Each task belongs to one employee
+* Employees can have multiple tasks
 
-Status
+### 📊 Bonus: Data Visualization
 
-Implementation Details
+* Custom “Workload Distribution” chart
+* Shows how many tasks each employee has
 
-Deployment
+### 🎨 Modern & Responsive UI
 
-✅
+* Built with Tailwind CSS
+* Dark-themed navbar
+* Card-based layout
 
-Frontend deployed to Vercel with continuous integration.
+### ⚡ Real-time UI Updates
 
-Advanced UI
+* UI updates instantly after:
 
-✅
+  * Adding employees
+  * Creating tasks
+  * Deleting items
 
-Custom Tailwind CSS styling, responsive grid layouts, and card components.
+---
 
-Data Visualization
+## 🏆 Bonus Challenges Achieved
 
-✅
+| Bonus Feature      | Status | Description                                |
+| ------------------ | ------ | ------------------------------------------ |
+| Deployment         | ✅      | UI deployed to Vercel                      |
+| Advanced UI        | ✅      | Custom Tailwind components                 |
+| Data Visualization | ✅      | Custom CSS-based bar chart                 |
+| Creative UX        | ✅      | Prevents tasks without employee assignment |
 
-Custom CSS-based Bar Chart to show employee workload stats.
+---
 
-UX/Creative
+## 🛠 Tech Stack
 
-✅
+### Frontend
 
-Smart Assignment System: Tasks cannot be created without being assigned to a valid employee.
+* React.js
+* Vite
+* Tailwind CSS
 
-🛠️ Tech Stack
+### Backend
 
-Frontend: React.js, Vite, Tailwind CSS
+* Node.js
+* Express.js
 
-Backend: Node.js, Express.js
+### Database
 
-Database: SQLite (Persistent file-based storage)
+* SQLite (file-based DB)
 
-HTTP Client: Fetch API
+### Communication
 
-⚙️ Installation & Setup
+* Fetch API
 
-Follow these steps to run the full-stack application locally.
+---
 
-1. Clone the Repository
+## ⚙️ Installation & Local Setup
 
-git clone [https://github.com/amanchauhan786/ProuInternship.git](https://github.com/amanchauhan786/ProuInternship.git)
+Follow the steps below to run the complete project locally.
+
+---
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/amanchauhan786/ProuInternship.git
 cd ProuInternship
+```
 
+---
 
-2. Setup Backend (Server)
+### 2️⃣ Setting Up the Backend (Server)
 
+```bash
 cd server
 npm install
 node server.js
+```
 
+Server runs at:
 
-The server will start on http://localhost:5000 and create the database.sqlite file automatically.
+👉 [http://localhost:5000](http://localhost:5000)
 
-3. Setup Frontend (Client)
+A new SQLite database file will be automatically created:
+
+```
+database.sqlite
+```
+
+---
+
+### 3️⃣ Setting Up the Frontend (Client)
 
 Open a new terminal:
 
+```bash
 cd client
 npm install
 npm run dev
+```
 
+The app runs at:
 
-The application will launch at http://localhost:5173.
+👉 [http://localhost:5173](http://localhost:5173)
 
-📂 Project Structure
+---
 
+## 📂 Project Structure
+
+```
 ProuInternship/
-├── client/                 # React Frontend
+├── client/                     # Frontend (React + Vite)
 │   ├── src/
-│   │   ├── components/     # UI Components (Cards, Charts)
-│   │   ├── App.jsx         # Main Logic
+│   │   ├── components/         # UI Components (Cards, Charts)
+│   │   ├── App.jsx             # Main Application Logic
+│   │   └── ...
+│   ├── index.html
 │   └── ...
-├── server/                 # Node.js Backend
-│   ├── server.js           # API Routes & Database Logic
-│   ├── package.json        # Dependencies
-│   └── database.sqlite     # Local Database file
-└── README.md               # Documentation
+│
+├── server/                     # Backend (Node + Express)
+│   ├── server.js               # REST API + Database Logic
+│   ├── package.json            # Dependencies
+│   ├── database.sqlite         # SQLite Database (Generated at runtime)
+│   └── ...
+│
+└── README.md                   # Documentation
+```
 
+---
 
-👤 Author
+## 👤 Author
 
-Aman Chauhan
+**Aman Chauhan**
 Aspiring Fullstack Developer
+Passionate about building modern web apps with clean UI & strong backend architecture.
+
+---
+
+## ⭐ Support
+
+If you found this helpful, please ⭐ **star the repository** on GitHub!
