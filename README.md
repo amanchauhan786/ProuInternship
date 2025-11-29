@@ -17,10 +17,9 @@ This full-stack web application includes CRUD operations, relational task assign
 
 ## 📸 Preview
 
-*Add your screenshot here*
-
 ```
-![Dashboard Preview](./preview.png)
+<img width="1920" height="894" alt="image" src="https://github.com/user-attachments/assets/8b0f9948-3ddc-4c2b-b160-46004673fb7f" />
+
 ```
 
 ---
