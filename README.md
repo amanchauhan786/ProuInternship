@@ -8,7 +8,7 @@ This full-stack web application includes CRUD operations, relational task assign
 ## 🌐 Live Demo
 
 🔵 **Frontend (Vercel Deployment)**
-👉 Live App: *Add your Vercel link here*
+👉 Live App: [https://taskmanageraman.vercel.app/]
 👉 Repository: [https://github.com/amanchauhan786/ProuInternship](https://github.com/amanchauhan786/ProuInternship)
 
 > ⚠️ *Note: The live frontend is for UI demonstration only. Backend + DB operations work locally.*
